@@ -12,7 +12,7 @@ namespace Project.ENTITIES.Models
         public string LastName { get; set; }
         public string ContactNumber { get; set; }
         public string TckNo { get; set; }
-
+        public string Adress { get; set; }
 
         //Relational properties
         public virtual List<Reservation> Reservations { get; set; } //Müsterinin rezervasyon listesi     

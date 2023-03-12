@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Attention", "Attention", "{
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.VM", "Project.VM\Project.VM.csproj", "{57172E59-CA8B-411A-89C5-2EFF12C5F03F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{CC308D14-2D42-4683-A509-8681B63A2499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC308D14-2D42-4683-A509-8681B63A2499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC308D14-2D42-4683-A509-8681B63A2499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57172E59-CA8B-411A-89C5-2EFF12C5F03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57172E59-CA8B-411A-89C5-2EFF12C5F03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57172E59-CA8B-411A-89C5-2EFF12C5F03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57172E59-CA8B-411A-89C5-2EFF12C5F03F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
