@@ -51,12 +51,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\SingletonPattern\DBTool.cs" />
+    <Compile Include="GenericRepository\BaseRep\BaseRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\CustomerRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\GuestDetailRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\GuestRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\HouseKeeperRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\ReceptionRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\ReservationRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\RoomDetailRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\RoomRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\RoomServiceRepository.cs" />
+    <Compile Include="GenericRepository\ConcRep\RoomTypeRepository.cs" />
+    <Compile Include="GenericRepository\IntRep\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project.DAL\Project.DAL.csproj">
+      <Project>{e34cca99-a5c3-41b8-ab21-c466b270aeb2}</Project>
+      <Name>Project.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.ENTITIES\Project.ENTITIES.csproj">
+      <Project>{518839a7-d0f2-4904-99c6-e36c050cd6e4}</Project>
+      <Name>Project.ENTITIES</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

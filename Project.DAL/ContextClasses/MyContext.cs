@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Project.DAL.ContextClasses
 {
-    public class MyContext:DbContext
+    public class MyContext : DbContext
     {
         public MyContext():base("MyConnection")
         {
