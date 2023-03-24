@@ -28,7 +28,7 @@ namespace Project.WinUI
         {
             if (_recRep.Any(x => x.UserName == txtIsim.Text && x.Password == txtSifre.Text))
             {
-                MessageBox.Show("Hoş Geldiniz!!");
+                MessageBox.Show("Power Of Women Rezervasyon Sistemine Hoş Geldiniz!!");
                 Form2 frm2 = new Form2();
                 frm2.ShowDialog();
             }

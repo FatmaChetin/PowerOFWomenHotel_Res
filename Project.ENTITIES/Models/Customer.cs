@@ -11,7 +11,7 @@ namespace Project.ENTITIES.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string ContactNumber { get; set; }
-        public string TckNo { get; set; }
+        public string TCKNo { get; set; }
         public string Adress { get; set; }
 
         //Relational properties
